@@ -1,3 +1,9 @@
+/*
+    Copywrite 2014, Zach Fredin
+    zachary.fredin@gmail.com
+    Distributed under terms of the GNU General Public License, version 3
+*/
+
 /*    
     This file is part of Neuron.
 
