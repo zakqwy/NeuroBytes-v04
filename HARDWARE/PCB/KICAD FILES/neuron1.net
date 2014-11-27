@@ -1,0 +1,175 @@
+# EESchema Netlist Version 1.1 created  Sun 16 Mar 2014 02:30:06 PM CDT
+(
+ ( /5320E1F0 SM0603 C1 0.1
+  ( 1 N-000017 )
+  ( 2 N-000008 )
+ )
+ ( /5320E302 SM0805 C2 10
+  ( 1 N-000017 )
+  ( 2 N-000008 )
+ )
+ ( /5324D7B2 RGBLED_CA D1 RGBLED_CA
+  ( 1 N-000012 )
+  ( 2 N-000004 )
+  ( 3 N-000001 )
+  ( 4 N-000017 )
+ )
+ ( /5312687F Dendrite K1 DENDRITE
+  ( 1 N-000009 )
+  ( 2 N-000017 )
+  ( 3 N-000008 )
+ )
+ ( /531268BC Dendrite K2 DENDRITE
+  ( 1 N-000007 )
+  ( 2 N-000017 )
+  ( 3 N-000008 )
+ )
+ ( /531268C6 Dendrite K3 DENDRITE
+  ( 1 N-000015 )
+  ( 2 N-000017 )
+  ( 3 N-000008 )
+ )
+ ( /531268DD Dendrite K4 DENDRITE
+  ( 1 N-000011 )
+  ( 2 N-000017 )
+  ( 3 N-000008 )
+ )
+ ( /531268E0 Dendrite K5 DENDRITE
+  ( 1 N-000014 )
+  ( 2 N-000017 )
+  ( 3 N-000008 )
+ )
+ ( /531268E6 Dendrite K6 DENDRITE
+  ( 1 N-000013 )
+  ( 2 N-000017 )
+  ( 3 N-000008 )
+ )
+ ( /53126E24 Dendrite K7 AXONTERMINAL
+  ( 1 N-000016 )
+  ( 2 N-000017 )
+  ( 3 N-000008 )
+ )
+ ( /53249CDE TESTPOINT K8 RESET
+  ( 1 N-000005 )
+  ( 2 N-000005 )
+ )
+ ( /531237BE SM0603 R1 10k
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /5312399B SM0603 R2 10k
+  ( 1 N-000008 )
+  ( 2 N-000007 )
+ )
+ ( /531239A3 SM0603 R3 10k
+  ( 1 N-000008 )
+  ( 2 N-000015 )
+ )
+ ( /531239A2 SM0603 R4 10k
+  ( 1 N-000008 )
+  ( 2 N-000011 )
+ )
+ ( /531239A6 SM0603 R5 10k
+  ( 1 N-000008 )
+  ( 2 N-000014 )
+ )
+ ( /531239A7 SM0603 R6 10k
+  ( 1 N-000008 )
+  ( 2 N-000013 )
+ )
+ ( /53123D9D SM0603 R7 75
+  ( 1 N-000003 )
+  ( 2 N-000012 )
+ )
+ ( /53123DA0 SM0805 R8 100
+  ( 1 N-000010 )
+  ( 2 N-000004 )
+ )
+ ( /53123D96 SM0603 R9 75
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /53122B00 SO14E U1 ATTINY44A
+  ( 1 N-000017 )
+  ( 2 N-000002 )
+  ( 3 N-000010 )
+  ( 4 N-000005 )
+  ( 5 N-000003 )
+  ( 6 ? )
+  ( 7 N-000016 )
+  ( 8 N-000009 )
+  ( 9 N-000007 )
+  ( 10 N-000015 )
+  ( 11 N-000011 )
+  ( 12 N-000014 )
+  ( 13 N-000013 )
+  ( 14 N-000008 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 16 Mar 2014 02:30:06 PM CDT
+
+BeginCmp
+TimeStamp = /5320E1F0;
+Reference = C1;
+ValeurCmp = 0.1;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5320E302;
+Reference = C2;
+ValeurCmp = 10;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5324D7B2;
+Reference = D1;
+ValeurCmp = RGBLED_CA;
+IdModule  = RGBLED_CA;
+EndCmp
+
+BeginCmp
+TimeStamp = /5312687F;
+Reference = K1;
+ValeurCmp = DENDRITE;
+IdModule  = Dendrite;
+EndCmp
+
+BeginCmp
+TimeStamp = /531268BC;
+Reference = K2;
+ValeurCmp = DENDRITE;
+IdModule  = Dendrite;
+EndCmp
+
+BeginCmp
+TimeStamp = /531268C6;
+Reference = K3;
+ValeurCmp = DENDRITE;
+IdModule  = Dendrite;
+EndCmp
+
+BeginCmp
+TimeStamp = /531268DD;
+Reference = K4;
+ValeurCmp = DENDRITE;
+IdModule  = Dendrite;
+EndCmp
+
+BeginCmp
+TimeStamp = /531268E0;
+Reference = K5;
+ValeurCmp = DENDRITE;
+IdModule  = Dendrite;
+EndCmp
+
+BeginCmp
+TimeStamp = /531268E6;
+Reference = K6;
+ValeurCmp = DENDRITE;
+IdModule  = Dendrite;
+EndCmp
+
+BeginCmp
+TimeStamp = /53126E24;
+Reference = K7;
+ValeurCmp = AXONTERMINAL;
+IdModule  = Dendrite;
+EndCmp
+
+BeginCmp
+TimeStamp = /53249CDE;
+Reference = K8;
+ValeurCmp = RESET;
+IdModule  = TESTPOINT;
+EndCmp
+
+BeginCmp
+TimeStamp = /531237BE;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5312399B;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531239A3;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531239A2;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531239A6;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531239A7;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53123D9D;
+Reference = R7;
+ValeurCmp = 75;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53123DA0;
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53123D96;
+Reference = R9;
+ValeurCmp = 75;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53122B00;
+Reference = U1;
+ValeurCmp = ATTINY44A;
+IdModule  = SO14E;
+EndCmp
+
+EndListe
