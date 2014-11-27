@@ -1,11 +1,11 @@
 /*
-Zach Fredin
-11/09/2014
+Copywrite 2014, Zach Fredin
 zachary.fredin@gmail.com
+Distributed under terms of the GNU General Public License, version 3
 
 I wrote a decent amount of this code 8 months ago. Glad I (sort of) documented it,
 as I haven't gone near AVR-C (or Neurons, for that matter) since then. The only modification
-I've made to v04test7 is to change two inhibitory inputs to excitatory inputs.
+I've made to this program since last time is to change two inhibitory inputs to excitatory inputs.
 */
 
 /*
