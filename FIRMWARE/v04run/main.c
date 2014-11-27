@@ -22,7 +22,7 @@ I've made to this program since last time is to change two inhibitory inputs to 
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+    along with Neuron.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include <avr/io.h>
