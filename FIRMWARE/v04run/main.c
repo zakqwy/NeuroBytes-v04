@@ -1,5 +1,4 @@
 /*
-
 Zach Fredin
 11/09/2014
 zachary.fredin@gmail.com
@@ -7,7 +6,23 @@ zachary.fredin@gmail.com
 I wrote a decent amount of this code 8 months ago. Glad I (sort of) documented it,
 as I haven't gone near AVR-C (or Neurons, for that matter) since then. The only modification
 I've made to v04test7 is to change two inhibitory inputs to excitatory inputs.
+*/
 
+/*
+    This file is part of Neuron.
+
+    Neuron is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Neuron is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include <avr/io.h>
