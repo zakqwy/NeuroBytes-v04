@@ -51,14 +51,26 @@ I've made to this program since last time is to change two inhibitory inputs to 
     along with Neuron.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+/* 	Common NeuroBytes module info
+		DDRA
+			PA0 = K6 (bottom left)
+			PA1 = K5 (top left)
+			PA2 = K4 (bottom center)
+			PA3 = K3 (top center)
+			PA4 = K2 (bottom right)
+			PA5 = K1 (top right)
+			PA6 = K7 (axon)
+*/
+
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
 uint8_t inputStatus = 0b00000000;//current input status (read when stuff changes!)
-uint16_t servoPosition = 0; //scaled between 0 and 1000; should really just use 100-900 to account for RC variations
 uint16_t scalingFactor = 1000; //number of milliseconds in an IRL second (used to calibrate NeuroBytes to a servo; nominally 1000
-uint16_t relaxSpeed = 35;
+uint16_t relaxSpeed = 35; //retract increment (step size, larger is faster)
+uint16_t homePosition = 500; //point that the servo should relax back to
+uint16_t servoPosition = 500; //current position to set, scaled between 0 and 1000. starts at homePosition.
 
 ISR(PCINT0_vect) { 	//interrupt svc routine called when PCINT0 changes state
 	inputStatus = PINA;
@@ -75,8 +87,13 @@ ISR(TIM1_COMPB_vect) { //Called when TCNT1 == OCR1B
 	PORTB = 0b00000001;
 	PORTA = 0b01000000;
 	TCNT1 = 0;
-	if (servoPosition > relaxSpeed) {
-		servoPosition -= relaxSpeed;
+	if (abs(servoPosition - homePosition) > relaxSpeed) {
+		if (servoPosition > homePosition) {
+			servoPosition -= relaxSpeed;
+		}
+		else if (servoPosition < homePosition) {
+			servoPosition += relaxSpeed;
+		}
 	}
 }
 void SystemInit(void) {
@@ -98,8 +115,11 @@ int main(void)
 	SystemInit();
 	for(;;){
 		OCR1A = scalingFactor + servoPosition;
-		if ((PINA & 0b00111111) > 0)  {
+		if ((PINA & 0b00101010) > 0) {
 			servoPosition = 1000;
+		}
+		else if ((PINA & 0b00010101) > 0) {
+			servoPosition = 0;
 		}
 	}
 }
