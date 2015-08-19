@@ -11,8 +11,6 @@
     This file, NeuroBytes-v04/FIRMWARE/v04run_standard, is the current v04 runtime software
     for a standard NeuroBytes board. As of today, these boards feature a 70%-per-input weighting
     matched across six dendrites (five excitatory, one inhibitory). 
-
-    File Name: /NeuroBytes-v04/FIRMWARE/v04run_standard
 */																																																																							
 
 /*

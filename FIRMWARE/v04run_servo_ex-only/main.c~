@@ -19,7 +19,7 @@
 	Servo PWM duty cycle: 10 ms (100 Hz)
 	Pulse Width Range: 1 to 2 ms
 	Zero point: 1 ms
-	Inputs: six (6 excitatory) 
+	Inputs: six (6 inhibitory) 
 
     File Name: /NeuroBytes-v04/FIRMWARE/v04run_servo_ex-only
 */
